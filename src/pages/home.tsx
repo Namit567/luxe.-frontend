@@ -6,6 +6,7 @@ import ProductCard from "../components/product-card";
 import { useLatestProductsQuery } from "../redux/api/productAPI";
 import { addToCart } from "../redux/reducer/cartReducer";
 import { CartItem } from "../types/types";
+import HomeCarousel from "../components/carousel";
 
 const Home = () => {
   const { data, isLoading, isError } = useLatestProductsQuery("");
@@ -23,6 +24,7 @@ const Home = () => {
   return (
     <div className="home">
       {/* <section></section> */}
+      <HomeCarousel />
 
       <h1>
         Latest Products

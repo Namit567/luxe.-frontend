@@ -1,5 +1,5 @@
 .product-search-page {
-  padding: 2rem;
+  padding: 1rem;
   @include flex(row, flex-start, stretch, 2rem);
   min-height: calc(100vh - 6.5vh);
 
@@ -46,7 +46,7 @@
       @include flex(row, flex-start, flex-start);
       flex-wrap: wrap;
       height: calc(100% - 10rem);
-      overflow-y: auto;
+      // overflow-y: auto;
     }
     // $p: 0.5rem 1rem, $bg, $color
     article {
