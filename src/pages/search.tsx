@@ -47,7 +47,7 @@ const Search = () => {
   };
 
   const isPrevPage = page > 1;
-  const isNextPage = page < 4;
+  const isNextPage = page < 7;
 
   if (isError) {
     const err = error as CustomError;
